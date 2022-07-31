@@ -1,5 +1,6 @@
+pyrebase
 pandas
 requests
+urllib3
 fastapi
 uvicorn
-pyrebase
