@@ -1,6 +1,5 @@
-DateTime
-numpy
 pandas
-python-dateutil
+requests
 fastapi
 uvicorn
+pyrebase
