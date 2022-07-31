@@ -1,0 +1,6 @@
+DateTime
+numpy
+pandas
+python-dateutil
+fastapi
+uvicorn
