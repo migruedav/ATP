@@ -2,12 +2,11 @@ import requests
 import pandas as pd
 
 from fastapi import FastAPI
-from fastapi.responses import HTMLResponse
 from fastapi import Query
 
 app = FastAPI()
 
-@app.get("/", response_class=HTMLResponse)
+@app.get("/")
 def home():
 
     url = 'https://pyrebaserealtimedbdemo-7f6cb-default-rtdb.firebaseio.com/ATP.json'
